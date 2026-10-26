@@ -1,1 +1,31 @@
-cmake-build-debug
+# Saidas de compilacao (incluindo executaveis sem extensao)
+build/
+bin/
+cmake-build-*/
+
+# Executaveis e artefatos de compilacao C/C++
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.dSYM/
+
+# Arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+
+# Configuracoes locais de editores
+.idea/
+.vscode/
